@@ -45,20 +45,23 @@ ul {
 
 .hero-content {
     display: flex;
+    margin-bottom: 150px;
+    justify-content: space-between;
+    align-self: stretch;
 }
 
 .hero-text {
     display: flex;
     flex-direction: column;
     align-items: flex-start;
-    border-style: solid;
-    border-radius: 2px;
+    width: 600px;
 }
 
-.main-text {
+.main-text span {
     color: #F9FAF8;
     font-size: 48px;
     font-weight: 900;
+    display: block;
 }
 
 .hero-secondary,
@@ -69,4 +72,14 @@ ul {
 
 button {
     background-color: #3882F6;
+    color: #F9FAF8;
+    font-weight: bold;
+    padding: 10px 40px;
+    border-radius: 10px;
+    border-style: none;
+    font-size: large;
+}
+
+.hero-secondary span {
+    display: block;
 }
