@@ -88,6 +88,7 @@ button {
     padding-left: 450px;
     padding-right: 450px;
     padding-bottom: 200px;
+    text-align: center;
 
     border-style: solid;
     border-color: brown;
@@ -98,24 +99,18 @@ h2 {
     font-size: 36px;
     color: #1F2937;
     font-weight: 900;
+    margin: 50px;
 }
 
-.small-pictures {
+.small-content {
     display: flex;
-    align-self: stretch;
-    justify-content: center;
-    gap: 70px;
-    padding-bottom: 12px;
+    gap: 52px;
+}
+
+.info {
+   max-width: 180px;
 }
 
 .small-text {
-    display: flex;
-    align-self: stretch;
-    justify-content: center;
-    gap: 90px;
-}
-
-.test-text {
-    width: 160px;
-    text-align: center;
+    margin-top: 8px;
 }
