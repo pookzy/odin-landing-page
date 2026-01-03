@@ -115,7 +115,7 @@ h2 {
     background-color: #E5E7EB;
     display: flex;
     flex-direction: column;
-    padding: 100px 545px;
+    padding: 100px;
 }
 
 .quote-text {
@@ -123,36 +123,59 @@ h2 {
     color: #1F2937;
     font-weight: 300;
     margin-bottom: 0;
+    display: flex;
+    align-self: center;
+    flex: 1 1 auto;
+    max-width: 850px;
 }
 
 .author {
-    text-align: right;
     font-weight: bold;
-    padding-right: 40px;
+    margin-right: 500px;
     font-size: 24px;
+    display: flex;
+    align-self: flex-end;
 }
 
-.cto-content {
+.cta-content {
     display: flex;
     background-color: #3882F6;
     margin: 75px 425px;
     padding: 50px;
     justify-content: space-evenly;
     border-radius: 10px;
+    flex-wrap: wrap;
+    flex: 1 1 0;
+    min-width: 80px;
 }
 
 .second-button {
     border-color: white;
     border-radius: 10px;
     border-style: solid;
-    padding: 8px 38px
+    padding: 8px 38px;
+    display:flex;
+    flex: 0 1 auto;
 }
 
-.cto-text {
+.cta-text {
     color: white;
+    display: flex;
+    flex-direction: column;
+    flex: 0 1 auto;
 }
 
-.cto-headline {
+.cta-headline {
     font-weight: bold;
     font-size: 24px;
+}
+
+.footer {
+    background-color: #1F2937;
+    color: #E5E7EB;
+    text-align: center;
+    padding-bottom: 40px;
+    padding-top: 40px;
+    font-weight: 400;
+    font-size: 18px;
 }
