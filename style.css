@@ -131,3 +131,28 @@ h2 {
     padding-right: 40px;
     font-size: 24px;
 }
+
+.cto-content {
+    display: flex;
+    background-color: #3882F6;
+    margin: 75px 425px;
+    padding: 50px;
+    justify-content: space-evenly;
+    border-radius: 10px;
+}
+
+.second-button {
+    border-color: white;
+    border-radius: 10px;
+    border-style: solid;
+    padding: 8px 38px
+}
+
+.cto-text {
+    color: white;
+}
+
+.cto-headline {
+    font-weight: bold;
+    font-size: 24px;
+}
