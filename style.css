@@ -89,10 +89,6 @@ button {
     padding-right: 450px;
     padding-bottom: 200px;
     text-align: center;
-
-    border-style: solid;
-    border-color: brown;
-    border-radius: 2px;
 }
 
 h2 {
@@ -113,4 +109,25 @@ h2 {
 
 .small-text {
     margin-top: 8px;
+}
+
+.quote-content {
+    background-color: #E5E7EB;
+    display: flex;
+    flex-direction: column;
+    padding: 100px 545px;
+}
+
+.quote-text {
+    font-size: 36px;
+    color: #1F2937;
+    font-weight: 300;
+    margin-bottom: 0;
+}
+
+.author {
+    text-align: right;
+    font-weight: bold;
+    padding-right: 40px;
+    font-size: 24px;
 }
